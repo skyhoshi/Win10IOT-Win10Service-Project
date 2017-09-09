@@ -4,10 +4,10 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Service_Logic_Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class Encrypto_Tests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void EncryptDebugOutput()
         {
             System.Diagnostics.Debug.WriteLine(SkyhoshiEncryption.Crypto.EncryptStringAES("InsertPasswordHere","InsertSaltHere"));
         }
