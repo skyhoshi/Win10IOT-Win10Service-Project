@@ -42,7 +42,7 @@ namespace Remote_Computer_Control_System
                 }
                 ev.Source = EventLogSourceName;
 #endif
-                if (ev.Source == string.Empty) { ev.Source = "Crimecast Service"; }
+                if (ev.Source == string.Empty) { ev.Source = ""; }
                 ev.WriteEntry(message, type);
             }
             catch (System.Security.SecurityException se)
